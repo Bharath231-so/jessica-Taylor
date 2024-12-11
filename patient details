@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica Taylor - Medical Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .diagnosis, .lab-results {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jessica Taylor - Medical Profile</h1>
+
+    <div class="section">
+        <h2>Personal Information</h2>
+        <p><strong>Name:</strong> Jessica Taylor</p>
+        <p><strong>Gender:</strong> Female</p>
+        <p><strong>Age:</strong> 28</p>
+        <p><strong>Date of Birth:</strong> August 23, 1996</p>
+        <p><strong>Phone Number:</strong> (415) 555-1234</p>
+        <p><strong>Emergency Contact:</strong> (415) 555-5678</p>
+        <p><strong>Insurance Type:</strong> Sunrise Health Assurance</p>
+    </div>
+
+    <div class="section">
+        <h2>Health Data & History</h2>
+        <h3>Vital Signs Trends</h3>
+        <p><strong>Blood Pressure:</strong> Fluctuates significantly, with multiple readings categorized as "Higher than Average" systolic values and a few as "Lower than Average" diastolic values.</p>
+        <p><strong>Heart Rate:</strong> Varies but generally normal or lower than average.</p>
+        <p><strong>Temperature:</strong> Periodic instances of "Higher than Average" temperatures indicating possible fever or inflammation.</p>
+        <p><strong>Respiratory Rate:</strong> Consistently normal across readings.</p>
+
+        <h3>Medical Diagnoses</h3>
+        <ul class="diagnosis">
+            <li><strong>Hypertension:</strong> Chronic high blood pressure (under observation).</li>
+            <li><strong>Type 2 Diabetes:</strong> Previously diagnosed, now marked as cured.</li>
+            <li><strong>Asthma:</strong> History of bronchial constriction, currently inactive.</li>
+            <li><strong>Osteoarthritis:</strong> Degenerative joint disease, untreated.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Lab and Diagnostic Tests</h2>
+        <ul class="lab-results">
+            <li>Blood Tests</li>
+            <li>CT Scans</li>
+            <li>Radiology Reports</li>
+            <li>X-Rays</li>
+        </ul>
+    </div>
+</body>
+</html>
